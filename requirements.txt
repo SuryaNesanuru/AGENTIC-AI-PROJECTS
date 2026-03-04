@@ -1,0 +1,22 @@
+# Core Dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+sqlalchemy==2.0.25
+
+# AI/NLP Dependencies (optional - install if needed)
+# transformers==4.36.2
+# torch==2.6.0
+# sentencepiece==0.1.99
+
+# NLP Utilities
+dateparser==1.1.8
+# spacy==3.7.2  # Install separately if needed
+
+# UI
+streamlit==1.30.0
+plotly==5.18.0
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.26.0
